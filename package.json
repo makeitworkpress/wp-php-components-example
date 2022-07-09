@@ -1,0 +1,25 @@
+{
+  "name": "wp-php-components-example",
+  "version": "1.0.0",
+  "description": "Example script for building modular components for WordPress using the PHP approach.",
+  "main": "./public/js/scripts.js",
+  "scripts": {
+    "bundle": "node esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeitworkpress/wp-php-components-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeitworkpress/wp-php-components-example/issues"
+  },
+  "homepage": "https://github.com/makeitworkpress/wp-php-components-example#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "esbuild": "^0.14.48",
+    "esbuild-sass-plugin": "^2.2.6",
+    "postcss": "^8.4.14"
+  }
+}
